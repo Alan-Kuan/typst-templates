@@ -1,0 +1,7 @@
+[package]
+name = "hw-report"
+version = "1.0.0"
+entrypoint = "template.typ"
+authors = ["Alan Kuan"]
+license = "Unlicense"
+description = "My personal format for submitting school assignment reports"
