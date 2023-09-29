@@ -44,6 +44,7 @@ The following is an example to use the `hw-report` template:
 | `title` | `str` | title of the document | `""` |
 | `authors` | `array` | authors of the document | `()` |
 | `font` | `str` or `array` | passed as the `text()`'s `font` parameter | `"Noto Serif TC"` |
+| `size` | `length` | passed as the `text()`'s `size` parameter | `12pt` |
 
 #### Format of `authors`'s elements:
 
