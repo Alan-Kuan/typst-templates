@@ -1,6 +1,6 @@
-#let project(lang: "en", font: "Noto Serif TC", title: "", authors: (), body) = {
+#let project(lang: "en", font: "Noto Serif TC", size: 12pt, title: "", authors: (), body) = {
   set document(author: authors.map(author => author.name), title: title)
-  set text(font: font, size: 12pt, lang: lang)
+  set text(font: font, size: size, lang: lang)
 
   // Title row.
   align(center)[
