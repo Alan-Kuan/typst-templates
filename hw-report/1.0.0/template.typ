@@ -41,5 +41,13 @@
   set par(justify: true)
   set enum(numbering: "1.a.")
 
+  show raw.where(block: false): it => box(
+    fill: luma(240),
+    outset: (y: 3pt),
+    inset: (x: 2pt),
+    radius: 3pt,
+    it
+  )
+
   body
 }
